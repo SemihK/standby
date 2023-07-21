@@ -12,10 +12,11 @@ struct ContentView: View {
     var body: some View {
     
         ZStack {
-            Color.black.ignoresSafeArea()
+            Color.yellow
+                .ignoresSafeArea()
             Text(Date(), style: .time)
                 .foregroundColor(Color.white)
-                .font(.system(size: 99))
+                .font(.system(size: 140))
         .bold()
         }
     }
