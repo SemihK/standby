@@ -36,8 +36,7 @@ var body: some View {
                   
                      
         }
-        .ignoresSafeArea()
-    }
+    }   .ignoresSafeArea()
 }
 }
 
