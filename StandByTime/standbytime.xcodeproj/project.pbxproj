@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		609CCD882A69855A00AD11AE /* StandByTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CCD872A69855A00AD11AE /* StandByTimeApp.swift */; };
-		609CCD8A2A69855A00AD11AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CCD892A69855A00AD11AE /* ContentView.swift */; };
-		609CCD8C2A69855C00AD11AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609CCD8B2A69855C00AD11AE /* Assets.xcassets */; };
-		609CCD8F2A69855C00AD11AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609CCD8E2A69855C00AD11AE /* Preview Assets.xcassets */; };
+		603324BE2A6A11FE007288D9 /* standbytimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603324BD2A6A11FE007288D9 /* standbytimeApp.swift */; };
+		603324C02A6A11FE007288D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603324BF2A6A11FE007288D9 /* ContentView.swift */; };
+		603324C22A6A11FE007288D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603324C12A6A11FE007288D9 /* Assets.xcassets */; };
+		603324C52A6A11FE007288D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603324C42A6A11FE007288D9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		609CCD842A69855A00AD11AE /* StandByTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandByTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		609CCD872A69855A00AD11AE /* StandByTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandByTimeApp.swift; sourceTree = "<group>"; };
-		609CCD892A69855A00AD11AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		609CCD8B2A69855C00AD11AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		609CCD8E2A69855C00AD11AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		603324BA2A6A11FE007288D9 /* standbytime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = standbytime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		603324BD2A6A11FE007288D9 /* standbytimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standbytimeApp.swift; sourceTree = "<group>"; };
+		603324BF2A6A11FE007288D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		603324C12A6A11FE007288D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		603324C42A6A11FE007288D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		609CCD812A69855A00AD11AE /* Frameworks */ = {
+		603324B72A6A11FE007288D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		609CCD7B2A69855A00AD11AE = {
+		603324B12A6A11FE007288D9 = {
 			isa = PBXGroup;
 			children = (
-				609CCD862A69855A00AD11AE /* StandByTime */,
-				609CCD852A69855A00AD11AE /* Products */,
+				603324BC2A6A11FE007288D9 /* standbytime */,
+				603324BB2A6A11FE007288D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		609CCD852A69855A00AD11AE /* Products */ = {
+		603324BB2A6A11FE007288D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				609CCD842A69855A00AD11AE /* StandByTime.app */,
+				603324BA2A6A11FE007288D9 /* standbytime.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		609CCD862A69855A00AD11AE /* StandByTime */ = {
+		603324BC2A6A11FE007288D9 /* standbytime */ = {
 			isa = PBXGroup;
 			children = (
-				609CCD872A69855A00AD11AE /* StandByTimeApp.swift */,
-				609CCD892A69855A00AD11AE /* ContentView.swift */,
-				609CCD8B2A69855C00AD11AE /* Assets.xcassets */,
-				609CCD8D2A69855C00AD11AE /* Preview Content */,
+				603324BD2A6A11FE007288D9 /* standbytimeApp.swift */,
+				603324BF2A6A11FE007288D9 /* ContentView.swift */,
+				603324C12A6A11FE007288D9 /* Assets.xcassets */,
+				603324C32A6A11FE007288D9 /* Preview Content */,
 			);
-			path = StandByTime;
+			path = standbytime;
 			sourceTree = "<group>";
 		};
-		609CCD8D2A69855C00AD11AE /* Preview Content */ = {
+		603324C32A6A11FE007288D9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				609CCD8E2A69855C00AD11AE /* Preview Assets.xcassets */,
+				603324C42A6A11FE007288D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		609CCD832A69855A00AD11AE /* StandByTime */ = {
+		603324B92A6A11FE007288D9 /* standbytime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 609CCD922A69855C00AD11AE /* Build configuration list for PBXNativeTarget "StandByTime" */;
+			buildConfigurationList = 603324C82A6A11FE007288D9 /* Build configuration list for PBXNativeTarget "standbytime" */;
 			buildPhases = (
-				609CCD802A69855A00AD11AE /* Sources */,
-				609CCD812A69855A00AD11AE /* Frameworks */,
-				609CCD822A69855A00AD11AE /* Resources */,
+				603324B62A6A11FE007288D9 /* Sources */,
+				603324B72A6A11FE007288D9 /* Frameworks */,
+				603324B82A6A11FE007288D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StandByTime;
-			productName = StandByTime;
-			productReference = 609CCD842A69855A00AD11AE /* StandByTime.app */;
+			name = standbytime;
+			productName = standbytime;
+			productReference = 603324BA2A6A11FE007288D9 /* standbytime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		609CCD7C2A69855A00AD11AE /* Project object */ = {
+		603324B22A6A11FE007288D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					609CCD832A69855A00AD11AE = {
-						CreatedOnToolsVersion = 15.0;
+					603324B92A6A11FE007288D9 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 609CCD7F2A69855A00AD11AE /* Build configuration list for PBXProject "StandByTime" */;
+			buildConfigurationList = 603324B52A6A11FE007288D9 /* Build configuration list for PBXProject "standbytime" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,46 +110,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 609CCD7B2A69855A00AD11AE;
-			productRefGroup = 609CCD852A69855A00AD11AE /* Products */;
+			mainGroup = 603324B12A6A11FE007288D9;
+			productRefGroup = 603324BB2A6A11FE007288D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				609CCD832A69855A00AD11AE /* StandByTime */,
+				603324B92A6A11FE007288D9 /* standbytime */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		609CCD822A69855A00AD11AE /* Resources */ = {
+		603324B82A6A11FE007288D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609CCD8F2A69855C00AD11AE /* Preview Assets.xcassets in Resources */,
-				609CCD8C2A69855C00AD11AE /* Assets.xcassets in Resources */,
+				603324C52A6A11FE007288D9 /* Preview Assets.xcassets in Resources */,
+				603324C22A6A11FE007288D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		609CCD802A69855A00AD11AE /* Sources */ = {
+		603324B62A6A11FE007288D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609CCD8A2A69855A00AD11AE /* ContentView.swift in Sources */,
-				609CCD882A69855A00AD11AE /* StandByTimeApp.swift in Sources */,
+				603324C02A6A11FE007288D9 /* ContentView.swift in Sources */,
+				603324BE2A6A11FE007288D9 /* standbytimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		609CCD902A69855C00AD11AE /* Debug */ = {
+		603324C62A6A11FE007288D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -182,8 +181,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -197,22 +195,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		609CCD912A69855C00AD11AE /* Release */ = {
+		603324C72A6A11FE007288D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -245,8 +242,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -254,66 +250,81 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		609CCD932A69855C00AD11AE /* Debug */ = {
+		603324C92A6A11FE007288D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StandByTime/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"standbytime/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Standby Time";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = semihkesgin.StandByTime;
+				PRODUCT_BUNDLE_IDENTIFIER = semihkesgin.standbytime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		609CCD942A69855C00AD11AE /* Release */ = {
+		603324CA2A6A11FE007288D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StandByTime/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"standbytime/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Standby Time";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = semihkesgin.StandByTime;
+				PRODUCT_BUNDLE_IDENTIFIER = semihkesgin.standbytime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		609CCD7F2A69855A00AD11AE /* Build configuration list for PBXProject "StandByTime" */ = {
+		603324B52A6A11FE007288D9 /* Build configuration list for PBXProject "standbytime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				609CCD902A69855C00AD11AE /* Debug */,
-				609CCD912A69855C00AD11AE /* Release */,
+				603324C62A6A11FE007288D9 /* Debug */,
+				603324C72A6A11FE007288D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		609CCD922A69855C00AD11AE /* Build configuration list for PBXNativeTarget "StandByTime" */ = {
+		603324C82A6A11FE007288D9 /* Build configuration list for PBXNativeTarget "standbytime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				609CCD932A69855C00AD11AE /* Debug */,
-				609CCD942A69855C00AD11AE /* Release */,
+				603324C92A6A11FE007288D9 /* Debug */,
+				603324CA2A6A11FE007288D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 609CCD7C2A69855A00AD11AE /* Project object */;
+	rootObject = 603324B22A6A11FE007288D9 /* Project object */;
 }

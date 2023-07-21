@@ -1,14 +1,14 @@
 //
-//  StandByTimeApp.swift
-//  StandByTime
+//  standbytimeApp.swift
+//  standbytime
 //
-//  Created by Semih Kesgin on 20.07.2023.
+//  Created by Semih Kesgin on 21.07.2023.
 //
 
 import SwiftUI
 
 @main
-struct StandByTimeApp: App {
+struct standbytimeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
