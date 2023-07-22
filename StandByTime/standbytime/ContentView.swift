@@ -18,12 +18,15 @@ var body: some View {
         ColorBackGround(color: $color)
         VStack {
             Text(Date(), style: .time)
+                .tracking(-22)
+                
                 .foregroundStyle(
                         LinearGradient(
                             colors: [.blue, .purple, .red],
                             startPoint: .leading,
                             endPoint: .trailing
                         )
+                        
                     )
                 .font(.custom(
                     "Viga-Regular",
@@ -31,6 +34,7 @@ var body: some View {
                     
 ))
                 .padding(-50)
+                
             Button(action: {
                 color = allColors[Int.random(in: 0...5)]
              }) {
