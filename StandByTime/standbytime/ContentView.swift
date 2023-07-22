@@ -11,18 +11,26 @@ struct ContentView: View {
     
     let allColors = [Color.black, Color.green.opacity(0.5), Color.yellow, Color.cyan, Color.init(.darkGray), Color.init(.systemGray2)]
     
-    @State var color = Color.yellow
+    @State var color = Color.black
     
 var body: some View {
     ZStack {
         ColorBackGround(color: $color)
         VStack {
             Text(Date(), style: .time)
-                .foregroundColor(Color.white)
-                .font(.system(size: 200))
-            .bold()
-            .padding()
-            
+                .foregroundStyle(
+                        LinearGradient(
+                            colors: [.blue, .purple, .red],
+                            startPoint: .leading,
+                            endPoint: .trailing
+                        )
+                    )
+                .font(.custom(
+                    "Viga-Regular",
+                    fixedSize: 250
+                    
+))
+                .padding(-50)
             Button(action: {
                 color = allColors[Int.random(in: 0...5)]
              }) {
@@ -33,8 +41,6 @@ var body: some View {
              .buttonStyle(.borderedProminent)
                      .buttonBorderShape(.capsule)
                      .opacity(0.5)
-                  
-                     
         }
     }   .ignoresSafeArea()
 }

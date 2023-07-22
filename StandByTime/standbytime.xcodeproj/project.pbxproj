@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602DF6A82A6C1C70007AB134 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6A72A6C1C70007AB134 /* PressStart2P-Regular.ttf */; };
+		602DF6AA2A6C1E8A007AB134 /* SuezOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6A92A6C1E8A007AB134 /* SuezOne-Regular.ttf */; };
+		602DF6AC2A6C20DC007AB134 /* BungeeShade-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6AB2A6C20DC007AB134 /* BungeeShade-Regular.ttf */; };
+		602DF6AE2A6C216D007AB134 /* RubikMoonrocks-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6AD2A6C216D007AB134 /* RubikMoonrocks-Regular.ttf */; };
+		602DF6B02A6C2C65007AB134 /* Viga-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6AF2A6C2C65007AB134 /* Viga-Regular.ttf */; };
 		603324BE2A6A11FE007288D9 /* standbytimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603324BD2A6A11FE007288D9 /* standbytimeApp.swift */; };
 		603324C02A6A11FE007288D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603324BF2A6A11FE007288D9 /* ContentView.swift */; };
 		603324C22A6A11FE007288D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603324C12A6A11FE007288D9 /* Assets.xcassets */; };
 		603324C52A6A11FE007288D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603324C42A6A11FE007288D9 /* Preview Assets.xcassets */; };
+		603798632A6C18C300654BBA /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 603798622A6C18C300654BBA /* LilitaOne-Regular.ttf */; };
+		603798652A6C190500654BBA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603798642A6C190500654BBA /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6000DA9A2A6ADA2500652244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		602DF6A72A6C1C70007AB134 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		602DF6A92A6C1E8A007AB134 /* SuezOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuezOne-Regular.ttf"; sourceTree = "<group>"; };
+		602DF6AB2A6C20DC007AB134 /* BungeeShade-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeShade-Regular.ttf"; sourceTree = "<group>"; };
+		602DF6AD2A6C216D007AB134 /* RubikMoonrocks-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikMoonrocks-Regular.ttf"; sourceTree = "<group>"; };
+		602DF6AF2A6C2C65007AB134 /* Viga-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Viga-Regular.ttf"; sourceTree = "<group>"; };
 		603324BA2A6A11FE007288D9 /* standbytime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = standbytime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603324BD2A6A11FE007288D9 /* standbytimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standbytimeApp.swift; sourceTree = "<group>"; };
 		603324BF2A6A11FE007288D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		603324C12A6A11FE007288D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603324C42A6A11FE007288D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		603798622A6C18C300654BBA /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
+		603798642A6C190500654BBA /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +47,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6000DA9D2A6ADCAE00652244 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				602DF6AF2A6C2C65007AB134 /* Viga-Regular.ttf */,
+				602DF6AD2A6C216D007AB134 /* RubikMoonrocks-Regular.ttf */,
+				602DF6AB2A6C20DC007AB134 /* BungeeShade-Regular.ttf */,
+				602DF6A92A6C1E8A007AB134 /* SuezOne-Regular.ttf */,
+				602DF6A72A6C1C70007AB134 /* PressStart2P-Regular.ttf */,
+				603798622A6C18C300654BBA /* LilitaOne-Regular.ttf */,
+				603798642A6C190500654BBA /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		603324B12A6A11FE007288D9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +80,8 @@
 		603324BC2A6A11FE007288D9 /* standbytime */ = {
 			isa = PBXGroup;
 			children = (
+				6000DA9D2A6ADCAE00652244 /* Fonts */,
+				6000DA9A2A6ADA2500652244 /* Info.plist */,
 				603324BD2A6A11FE007288D9 /* standbytimeApp.swift */,
 				603324BF2A6A11FE007288D9 /* ContentView.swift */,
 				603324C12A6A11FE007288D9 /* Assets.xcassets */,
@@ -125,7 +156,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602DF6A82A6C1C70007AB134 /* PressStart2P-Regular.ttf in Resources */,
+				602DF6AA2A6C1E8A007AB134 /* SuezOne-Regular.ttf in Resources */,
+				602DF6B02A6C2C65007AB134 /* Viga-Regular.ttf in Resources */,
+				602DF6AE2A6C216D007AB134 /* RubikMoonrocks-Regular.ttf in Resources */,
 				603324C52A6A11FE007288D9 /* Preview Assets.xcassets in Resources */,
+				602DF6AC2A6C20DC007AB134 /* BungeeShade-Regular.ttf in Resources */,
+				603798632A6C18C300654BBA /* LilitaOne-Regular.ttf in Resources */,
 				603324C22A6A11FE007288D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				603324C02A6A11FE007288D9 /* ContentView.swift in Sources */,
+				603798652A6C190500654BBA /* Fonts.swift in Sources */,
 				603324BE2A6A11FE007288D9 /* standbytimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +309,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"standbytime/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = standbytime/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Standby Time";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -306,6 +345,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"standbytime/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = standbytime/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Standby Time";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
