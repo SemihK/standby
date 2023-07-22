@@ -1,11 +1,17 @@
+
 # standby time 
 
 A full screen clock for devices below iOS17
 
 
-|  ![black](https://github.com/SemihK/standby/blob/main/screenshot/Ekran%20Resmi%202023-07-21%2004.27.52.png?raw=true)|  ![yellow](https://github.com/SemihK/standby/blob/main/screenshot/Ekran%20Resmi%202023-07-21%2004.26.14.png?raw=true)|
+|  ![yellow](https://github.com/SemihK/standby/blob/main/screenshot/iPhone%20Yellow.png?raw=true)|  ![black](https://github.com/SemihK/standby/blob/main/screenshot/iPhone%20Black.png?raw=true)|
 |--|--|
-| ![color](https://github.com/SemihK/standby/blob/main/screenshot/Ekran%20Resmi%202023-07-22%2018.38.46.png?raw=true) |![black2](https://github.com/SemihK/standby/blob/main/screenshot/Ekran%20Resmi%202023-07-22%2018.34.56.png?raw=true)  |
+| ![yellow 12](https://github.com/SemihK/standby/blob/main/screenshot/iPhone%20Yellow%2012hrs.png?raw=true) | ![black & white](https://github.com/SemihK/standby/blob/main/screenshot/iPhone%20Black%20&%20White.png?raw=true) |
+
+|  ![iPadOS](https://github.com/SemihK/standby/blob/main/screenshot/iPad%20Mini%2012hrs.png?raw=true)|  ![iPadOS Color](https://github.com/SemihK/standby/blob/main/screenshot/iPad%20Mini%2024hrs.png?raw=true)|
+|--|--|
+| ![app logo](https://github.com/SemihK/standby/blob/main/StandByTime/standbytime/Assets.xcassets/AppIcon.appiconset/App%20Icon%201.png?raw=true) | ![enter image description here](https://github.com/SemihK/standby/blob/main/screenshot/iPhone%20Color.png?raw=true) |
+
 
 
 
