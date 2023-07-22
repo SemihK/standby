@@ -1,7 +1,7 @@
 
 # standby time 
 
-A full screen clock for devices below iOS17
+Standby display for iPhone, iPadOS and MacOS devices below iOS17
 
 
 |  ![yellow](https://github.com/SemihK/standby/blob/main/screenshot/iPhone%20Yellow.png?raw=true)|  ![black](https://github.com/SemihK/standby/blob/main/screenshot/iPhone%20Black.png?raw=true)|
