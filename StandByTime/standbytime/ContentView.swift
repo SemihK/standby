@@ -17,9 +17,8 @@ var body: some View {
     ZStack {
         ColorBackGround(color: $color)
         VStack {
-            Text(Date(), style: .time)
+            Text(Date().formatted(date: .omitted, time: .shortened)) // Çalışmıyor farkındayım neden olduğunu biliyorsan düzelt lütfen. 
                 .tracking(-22)
-                
                 .foregroundStyle(
                         LinearGradient(
                             colors: [.blue, .purple, .red],
@@ -43,7 +42,7 @@ var body: some View {
              }
              .foregroundColor(.secondary)
              .buttonStyle(.borderedProminent)
-                    // .buttonBorderShape(.capsule)
+                    .buttonBorderShape(.capsule)
                      .opacity(0.5)
         }
     }   .ignoresSafeArea()
