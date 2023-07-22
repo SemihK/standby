@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let allColors = [Color.black, Color.green.opacity(0.5), Color.yellow, Color.cyan, Color.init(.darkGray), Color.init(.systemGray2)]
+    let allColors = [Color.black, Color.green.opacity(0.5), Color.yellow, Color.cyan, Color.init(.darkGray)]
     
     @State var color = Color.black
     
@@ -36,14 +36,14 @@ var body: some View {
                 .padding(-50)
                 
             Button(action: {
-                color = allColors[Int.random(in: 0...5)]
+                color = allColors[Int.random(in: 0...4)]
              }) {
                  Image(systemName: "lightbulb.circle.fill")
                      .imageScale(.large)
              }
              .foregroundColor(.secondary)
              .buttonStyle(.borderedProminent)
-                     .buttonBorderShape(.capsule)
+                    // .buttonBorderShape(.capsule)
                      .opacity(0.5)
         }
     }   .ignoresSafeArea()
