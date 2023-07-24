@@ -1,4 +1,4 @@
 
 StandByTime/standbytime.xcodeproj/project.pbxproj
 *.pbxproj
-*.DS_Store
+.DS_Store
