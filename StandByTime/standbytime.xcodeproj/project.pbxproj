@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600606792A71D6C300F49225 /* darkmode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600606782A71D6C300F49225 /* darkmode.swift */; };
 		602DF6A82A6C1C70007AB134 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6A72A6C1C70007AB134 /* PressStart2P-Regular.ttf */; };
 		602DF6AA2A6C1E8A007AB134 /* SuezOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6A92A6C1E8A007AB134 /* SuezOne-Regular.ttf */; };
 		602DF6AC2A6C20DC007AB134 /* BungeeShade-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602DF6AB2A6C20DC007AB134 /* BungeeShade-Regular.ttf */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		6000DA9A2A6ADA2500652244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		600606782A71D6C300F49225 /* darkmode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkmode.swift; sourceTree = "<group>"; };
 		602DF6A72A6C1C70007AB134 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
 		602DF6A92A6C1E8A007AB134 /* SuezOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuezOne-Regular.ttf"; sourceTree = "<group>"; };
 		602DF6AB2A6C20DC007AB134 /* BungeeShade-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeShade-Regular.ttf"; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		600606752A71D61200F49225 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				600606782A71D6C300F49225 /* darkmode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		603324B12A6A11FE007288D9 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		603324BC2A6A11FE007288D9 /* standbytime */ = {
 			isa = PBXGroup;
 			children = (
+				600606752A71D61200F49225 /* Model */,
 				6000DA9D2A6ADCAE00652244 /* Fonts */,
 				6000DA9A2A6ADA2500652244 /* Info.plist */,
 				603324BD2A6A11FE007288D9 /* standbytimeApp.swift */,
@@ -177,6 +188,7 @@
 				603324C02A6A11FE007288D9 /* ContentView.swift in Sources */,
 				603798652A6C190500654BBA /* Fonts.swift in Sources */,
 				603324BE2A6A11FE007288D9 /* standbytimeApp.swift in Sources */,
+				600606792A71D6C300F49225 /* darkmode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
