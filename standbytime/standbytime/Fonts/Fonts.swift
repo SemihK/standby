@@ -16,5 +16,6 @@ struct Fonts {
     let BungeeShade : String = "BungeeShade-Regular"
     let RubikMoonrocks : String = "RubikMoonrocks-Regular"
     let Viga : String = "Viga-Regular"
+    let SquadaOne : String = "SquadaOne-Regular"
     
 }

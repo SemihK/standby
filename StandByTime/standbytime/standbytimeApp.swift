@@ -11,7 +11,7 @@ import SwiftUI
 struct standbytimeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ThirdPage()
         }
     }
 }

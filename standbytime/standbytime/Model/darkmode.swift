@@ -12,4 +12,8 @@ import SwiftUI
 public extension Color {
     static let customDarkModeColor = Color.black
     static let customLightModeColor = Color.white
+    static let oldPrimaryColor = Color(UIColor.systemIndigo)
+    static let newPrimaryColor = Color("Green")
 }
+
+
