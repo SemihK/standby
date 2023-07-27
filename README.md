@@ -65,6 +65,8 @@ Since I haven't bought an Apple developer account yet (you can donate), you need
 9.  Once it's running, you can click the Stop button in Xcode and unplug your device. It should automatically install to your apple device.
 ```
 
+> ⚠️   Change the ContentView initial name to change interfaces. 
+
 
 ## Download
 
