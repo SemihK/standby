@@ -19,7 +19,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
         VStack {
             Text(getFormattedTime())
-                .tracking(-2)
+                .tracking(-1)
                 .font(.custom(
                                     "Viga-Regular",
                                     fixedSize: 180
@@ -50,7 +50,7 @@ struct ContentView: View {
     // Saati HH:mm:ss formatında almak için yardımcı fonksiyon
     func getFormattedTime() -> String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "HH:mm:ss"
+        formatter.dateFormat = "HH:mm"
         return formatter.string(from: currentTime)
     }
 }
