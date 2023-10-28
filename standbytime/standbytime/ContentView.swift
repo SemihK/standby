@@ -21,10 +21,11 @@ struct ContentView: View {
             Text(getFormattedTime())
                 .tracking(-1)
                 .font(.custom(
-                                    "Viga-Regular",
+                                    "SquadaOne-Regular",
                                     fixedSize: 180
                                     ))
-                .foregroundStyle(
+                .foregroundColor(Color("Green"))
+               /* .foregroundStyle(
                                         LinearGradient(
                                             colors: [.blue, .purple, .red],
                                             startPoint: .leading,
@@ -32,6 +33,8 @@ struct ContentView: View {
                                         )
                                         
                                     )
+                */
+                
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .background(colorScheme == .dark ? Color.customDarkModeColor : Color.customLightModeColor)
                         .foregroundColor(colorScheme == .dark ? .white : .black)

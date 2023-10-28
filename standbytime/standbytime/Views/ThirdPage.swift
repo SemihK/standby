@@ -11,7 +11,7 @@ struct ThirdPage: View {
 
         @Environment(\.colorScheme) var colorScheme
     let date = Date()
-        
+     @State private var isBouncing = false
         @State private var currentTime = Date()
 
         var body: some View {
@@ -27,8 +27,9 @@ struct ThirdPage: View {
                                         "SquadaOne-Regular",
                                         fixedSize: 250
                                         ))
-                        .frame(width: .infinity, alignment: .trailing)
-                    
+                        .scaleEffect(isBouncing ? 1.1 : 1.0)
+                                    .animation(Animation.interpolatingSpring(mass: 1, stiffness: 100, damping: 10, initialVelocity: 0))
+                  
                     // gün gösterimi
                     Text(date.formatted(.dateTime.weekday()))
                         .foregroundColor(Color("Green"))
@@ -60,6 +61,7 @@ struct ThirdPage: View {
             .onAppear {
                 // Timer kullanarak saati güncelle
                 let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+                    
                     currentTime = Date()
                 }
                 // Timer'ın çalışmasını sağlamak için run loop
