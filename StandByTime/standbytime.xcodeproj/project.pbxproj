@@ -139,6 +139,8 @@
 			dependencies = (
 			);
 			name = standbytime;
+			packageProductDependencies = (
+			);
 			productName = standbytime;
 			productReference = 603324BA2A6A11FE007288D9 /* standbytime.app */;
 			productType = "com.apple.product-type.application";
@@ -167,6 +169,8 @@
 				Base,
 			);
 			mainGroup = 603324B12A6A11FE007288D9;
+			packageReferences = (
+			);
 			productRefGroup = 603324BB2A6A11FE007288D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

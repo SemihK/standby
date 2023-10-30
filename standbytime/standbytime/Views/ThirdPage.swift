@@ -28,8 +28,9 @@ struct ThirdPage: View {
                                         fixedSize: 250
                                         ))
                         .scaleEffect(isBouncing ? 1.1 : 1.0)
-                                    .animation(Animation.interpolatingSpring(mass: 1, stiffness: 100, damping: 10, initialVelocity: 0))
+                                    
                   
+                
                     // gün gösterimi
                     Text(date.formatted(.dateTime.weekday()))
                         .foregroundColor(Color("Green"))
